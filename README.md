@@ -1,5 +1,27 @@
-# cdslibrary
-A modular data-structure library implemented in C, featuring stacks, queues, trees, heaps, and hashMaps with clean APIs, explicit error handling, unit tests, and a CMake build system
+# Custom Data Structure Library (C)
 
-## License
-This project is licensed under the MIT License.
+A modular, reusable data structure library implemented from scratch in C.
+Designed with clean APIs, explicit error handling, and manual memory control.
+
+## Features
+- Singly Linked List
+- Stack (array-based)
+- Queue (circular array)
+- Binary Search Tree
+- Max Heap / Priority Queue
+- HashMap (separate chaining)
+
+## Design Goals
+- Encapsulation via opaque structs
+- Consistent error semantics
+- No global state
+- Manual memory management
+- Test-driven validation
+
+## Build Instructions
+
+```bash
+mkdir build
+cd build
+cmake ..
+make
