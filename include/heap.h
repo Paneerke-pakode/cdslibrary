@@ -19,4 +19,5 @@ int heap_is_empty(const cds_heap* heap);
 int heap_is_full(const cds_heap* heap);
 size_t heap_size(const cds_heap* heap);
 
+
 #endif
